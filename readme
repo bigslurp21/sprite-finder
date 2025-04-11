@@ -1,0 +1,34 @@
+The idea of this project is to start as absolutely simple as possible, and add more challenges as we go. Starting with a plain background and only one variation for each type of object, we will work our way up to more complex challenges. The 2.0 will be done in Unreal engine in a 3D space (but don't worry about that for now).
+
+
+1.0
+
+The goal of this project is to make an extremely simplified simulation of a drone scanning an environment and plotting the objects of interest in map.
+
+There will be two modes of scanning. One is automatic grid search, the other is the search window is controlled by the user's mouse. 
+
+We will generate 1000s of crowded images filled with sprites.
+
+Then we will train an AI to distinguish the sprites of interest from "non-interesting sprites" or "noise"
+
+The AI will keep track of the location of the objects as it finds them, and plot them.
+
+We must implement a system to keep track of which where they have been seen so that we don't double count sprites we've already seen. 
+
+Sprite Generation:
+- We cannot generate sprites larger than the sliding window. 
+- We should not have over lapping sprites. 
+- Sprite location is included as meta data with every image. 
+- Each type of sprite will be generally similar (not two totally different looking types of trees for example) (keep it simple)
+
+In this first round we will only use a white background.
+
+1.1
+
+We will experiment with 10 to 100 different backgrounds.
+
+1.2
+
+In this version we will try to get the model to generalize to unseen instances of a class.
+
+For example, we will have multiple different types of Snake classes and we will try to get it to guess unseen snake sprites.

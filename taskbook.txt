@@ -1,0 +1,15 @@
+
+Pre: 
+* Decide pixel dimenions of puzzles
+* Decide size of search window
+
+
+1) Download and organize the sprites
+- 10 of interests
+- 100+ not of interest
+
+2) Generate data for sprite recognizer
+- For a given square area the size of the search window
+
+3) Make and train the model that recognizes sprites and their locations
+
