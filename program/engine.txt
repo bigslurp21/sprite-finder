@@ -1,0 +1,16 @@
+How the program runs
+--------------------
+
+Idea:
+
+The interface will communicate with the engine where the search window is at all times.
+
+Every ___ milliseconds a snapchat will be taken of the search window, given that it was moving.
+or
+Movement triggers snapshots every ____ pixels.
+
+This snapshot will be processed as quick as possible, which includes:
+1) Send to AI to determine if it has seen an "interesting object"
+2) Based on location weather that object has been seen before
+3) If found it saves the location and type, then sends this information back to interface to be displayed. 
+

@@ -1,0 +1,9 @@
+puzzle dimensions:
+  x: 1250
+  y: 600
+
+image type: jpeg
+
+search dimensions:
+  x: 130
+  y: 130

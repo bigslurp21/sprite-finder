@@ -1,0 +1,5 @@
+Finds sprite locations and estimates size.
+
+This may again be devided into two ML models:
+1) estimates locations 
+2) estimates size 

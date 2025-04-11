@@ -1,0 +1,6 @@
+This NN will do the following:
+
+1) Take an image with zero to many sprites in as input
+    - all sprites will have the spatial location and size tagged
+
+2) Th NN will be first trained to recognize the existence of sprites
